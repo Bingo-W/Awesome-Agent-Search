@@ -32,7 +32,7 @@ If you find this survey useful in your research and applications, please cite an
 ```
 
 > [!TIP]
-> 👋 This repository tracks the fast-moving literature on **agent and tool search**: how systems discover, represent, retrieve, rank, and evaluate agents and tools for a given task. If you know a paper we're missing, or work in this space yourself, PRs are very welcome (see [Contributing](#8-contributing)).
+> 👋 This repository tracks the fast-moving literature on **agent and tool search**: how systems discover, represent, retrieve, rank, and evaluate agents and tools for a given task. If you know a paper we're missing, or work in this space yourself, PRs are very welcome (see [Contributing](#-contributing)).
 
 <p align="center">
   <img src="assets/agent_search_evolution.png" alt="Evolution of agent search research directions, 2023-2026" width="92%">
@@ -622,7 +622,7 @@ The position paper motivating agent search as a distinct problem, its companion 
 | Resource | Description | Links |
 |---|---|---|
 | **AgentSearch: Indexing, Retrieval, and Ranking of AI Agents** | Position paper (SIGIR 2026) motivating agent search as a distinct research problem | [📄 Paper](https://doi.org/10.1145/3805712.3808653) |
-| **Agent-Search Workshop @ SIGIR 2026** | The workshop this survey is affiliated with | [🌐 Website](https://agent-search.github.io/agentsearch-sigir26/#accepted-papers) |
+| **Agent-Search Workshop @ SIGIR 2026** | The workshop this survey is affiliated with | [🌐 Website](https://agent-search.github.io/agentsearch-sigir26) |
 | **AgentSearchBench: A Benchmark for AI Agent Search in the Wild** | Companion benchmark for evaluating agent search systems | [📄 Paper](https://arxiv.org/abs/2604.22436) · [🌐 Project Page](https://bingo-w.github.io/AgentSearchBench/) · [🤗 Dataset](https://huggingface.co/AgentSearch) · [💻 Code](https://github.com/Bingo-W/AgentSearchBench) |
 
 ---
@@ -644,6 +644,8 @@ We regularly update the repository to include new research on agent and tool sea
 [<img src="assets/ucl.png" width="344" height="100">](https://www.ucl.ac.uk/)
 [<img src="assets/uclnlp.png" width="100" height="100">](https://nlp.cs.ucl.ac.uk/)
 [<img src="assets/cmu.png" width="100" height="100">](https://www.cmu.edu/)
+[<img src="assets/edinburghnlp.png" width="200" height="100">](https://edinburghnlp.inf.ed.ac.uk/)
+
 
 <div align="center">
 
