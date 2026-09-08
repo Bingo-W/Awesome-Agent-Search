@@ -22,12 +22,14 @@
 If you find this survey useful in your research and applications, please cite and ⭐ star / watch the repo for updates:
 
 ```bibtex
-@article{agentsearch2026,
-  title   = {Agent and Tool Search: Foundations, Techniques, and Open Challenges},
-  author  = {TBD},
-  journal = {arXiv preprint},
-  year    = {2026},
-  note    = {Citation details to be added upon release}
+@article{wu2026agentsearch,
+  title={Agent and Tool Search: Foundations, Techniques, and Open Challenges},
+  author={Wu, Bin and Rahmani, Hossein A and Kim, To Eun and Mammadli, Arastun and 
+          Qiao, Shuofei and Fu, Xiao and Ramineni, Varsha and Zhang, Xiaoyu and Meng, 
+          Chuan and Drayson, George and Chowdhury, Anu and Ramos, Jerome and Maiga, 
+          Abdine and Yilmaz, Emine},
+  year={2026},
+  publisher={Preprints}
 }
 ```
 
@@ -61,10 +63,10 @@ If you find this survey useful in your research and applications, please cite an
 |---|---|
 | [1. Task Understanding](#1-task-understanding) | [1.1 Task Decomposition](#11-task-decomposition) · [1.2 Planning Augmentation](#12-planning-augmentation) · [1.3 Proactive User Intent Clarification](#13-proactive-user-intent-clarification) |
 | [2. Agent Discovery, Representation & Indexing](#2-agent-discovery-representation-and-indexing) | [2.1 Units of Discovery](#21-units-of-discovery) · [2.2 Tool Representation Surfaces](#22-tool-representation-surfaces) · [2.3 Indexing & Retrieval Backends](#23-indexing-and-retrieval-backends) · [2.4 Agent Representations](#24-agent-representations) · [2.5 Maintenance](#25-maintenance-drift-updates-and-missing-information) |
-| [3. Retrieval, Reranking & Selection of Agents](#3-retrieval-reranking-and-selection-of-agents) | [3.1 Agent/Tool Selection](#31-agenttool-selection) · [3.2 Iterative Tool Retrieval](#32-iterative-tool-retrieval) · [3.3 Agent & Tool Recommendation](#33-agent-and-tool-recommendation) |
+| [3. Retrieval, Reranking & Selection of Agents](#3-retrieval-reranking-and-selection-of-agents) | [3.1 Agent/Tool Selection](#31-agenttool-selection) · [3.2 Iterative Tool Retrieval](#32-iterative-tool-retrieval) · [3.3 Agent and Tool Recommendation](#33-agent-and-tool-recommendation) |
 | [4. Evaluation of Agent Search](#4-evaluation-of-agent-search) | [4.1 Intrinsic Evaluation](#41-intrinsic-evaluation) · [4.2 Extrinsic Evaluation](#42-extrinsic-evaluation) |
-| [5. System-Level Dimensions](#5-system-level-dimensions) | [5.1 Safety](#51-safety) · [5.2 Bias & Fairness](#52-bias-and-fairness) · [5.3 Security Risks](#53-security-risks) · [5.4 Personalization](#54-personalization) · [5.5 Transparency & Explainability](#55-transparency-and-explainability) |
-| [6. Applications](#6-applications) | [6.1 Medical](#61-medical) · [6.2 Law](#62-law) · [6.3 Deep Research](#63-deep-research) |
+| [5. System-Level Dimensions](#5-system-level-dimensions) | [5.1 Safety](#51-safety) · [5.2 Bias and Fairness](#52-bias-and-fairness) · [5.3 Security Risks](#53-security-risks) · [5.4 Personalization](#54-personalization) · [5.5 Transparency & Explainability](#55-transparency-and-explainability) |
+| [6. Applications](#6-applications) | [6.1 Healthcare](#61-healthcare) · [6.2 Law](#62-law) · [6.3 Deep Research](#63-deep-research) |
 | [Related Resources](#-related-resources) | — |
 | [Contributing](#-contributing) | — |
 
@@ -89,7 +91,7 @@ Transforming user tasks into actionable requirement specifications for downstrea
 | [TaskBench: Benchmarking Large Language Models for Task Automation](https://arxiv.org/abs/2311.18760) | NeurIPS 2024 |
 | [Can Graph Learning Improve Planning in LLM-based Agents?](https://proceedings.neurips.cc/paper_files/paper/2024/file/098d1bd3eb6156a4c2f834563cdcf617-Paper-Conference.pdf) | NeurIPS 2024 |
 | [What's the Plan? Evaluating and Developing Planning-Aware Techniques for Language Models](https://arxiv.org/abs/2402.11489) | arXiv 2024 |
-| [Understanding the Planning of LLM Agents: A Survey *(survey)*](https://arxiv.org/pdf/2402.02716) | arXiv 2024 |
+| [Understanding the Planning of LLM Agents: A Survey](https://arxiv.org/pdf/2402.02716) | arXiv 2024 |
 | [Tree Search for Language Model Agents](https://arxiv.org/abs/2407.01476) | arXiv 2024 |
 | [LATS: Language Agent Tree Search Unifies Reasoning, Acting, and Planning](https://openreview.net/forum?id=6LNTSrJjBe) | ICML 2024 |
 | [WebDART: Dynamic Decomposition and Re-planning for Complex Web Tasks](https://arxiv.org/abs/2510.06587) | arXiv 2025 |
@@ -106,8 +108,8 @@ Transforming user tasks into actionable requirement specifications for downstrea
 | [CostBench: Evaluating Multi-Turn Cost-Optimal Planning and Adaptation in Dynamic Environments for LLM Tool-Use Agents](https://arxiv.org/abs/2511.02734) | arXiv 2025 |
 | [Verification-Aware Planning for Multi-Agent Systems](https://arxiv.org/pdf/2510.17109) | arXiv 2025 |
 | [DeepPlanner: Scaling Planning Capability for Deep Research Agents via Advantage Shaping](https://arxiv.org/pdf/2510.12979) | arXiv 2025 |
-| [PlanGenLLMs: A Modern Survey of LLM Planning Capabilities *(survey)*](https://aclanthology.org/2025.acl-long.958.pdf) | ACL 2025 |
-| [End-to-End Planning Framework with Agentic LLMs and PDDL *(offload planning)*](https://arxiv.org/pdf/2512.09629) | arXiv 2025 |
+| [PlanGenLLMs: A Modern Survey of LLM Planning Capabilities](https://aclanthology.org/2025.acl-long.958.pdf) | ACL 2025 |
+| [End-to-End Planning Framework with Agentic LLMs and PDDL](https://arxiv.org/pdf/2512.09629) | arXiv 2025 |
 | [ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning](https://openreview.net/forum?id=Ef5O9gNNLE) | ICLR 2026 |
 
 ### 1.2 Planning Augmentation
@@ -116,7 +118,7 @@ Transforming user tasks into actionable requirement specifications for downstrea
 
 | Paper | Venue |
 |---|---|
-| [LLM+P: Empowering Large Language Models with Optimal Planning Proficiency *(offload planning)*](https://arxiv.org/abs/2304.11477) | arXiv 2023 |
+| [LLM+P: Empowering Large Language Models with Optimal Planning Proficiency](https://arxiv.org/abs/2304.11477) | arXiv 2023 |
 | [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) | arXiv 2023 |
 | [CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://proceedings.neurips.cc/paper_files/paper/2023/hash/a3621ee907def47c1b952ade25c67698-Abstract-Conference.html) | NeurIPS 2023 |
 | [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://proceedings.neurips.cc/paper_files/paper/2023/file/77c33e6a367922d003ff102ffb92b658-Paper-Conference.pdf) | NeurIPS 2023 |
@@ -136,8 +138,16 @@ Transforming user tasks into actionable requirement specifications for downstrea
 | [ToolRL: Reward is All Tool Learning Needs](https://proceedings.neurips.cc/paper_files/paper/2025/hash/97c5b2707228e7e3fb67e4ecc2e0e607-Abstract-Conference.html) | NeurIPS 2025 |
 | [EmbodiedBrain: Expanding Performance Boundaries of Task Planning for Embodied Intelligence](https://arxiv.org/pdf/2510.20578) | arXiv 2025 |
 | [AgentGen: Enhancing Planning Abilities for LLM-Based Agents via Environment and Task Generation](https://dl.acm.org/doi/epdf/10.1145/3690624.3709321) | KDD 2025 |
-| [End-to-End Planning Framework with Agentic LLMs and PDDL *(offload planning)*](https://arxiv.org/pdf/2512.09629) | arXiv 2025 |
+| [End-to-End Planning Framework with Agentic LLMs and PDDL](https://arxiv.org/pdf/2512.09629) | arXiv 2025 |
 | [AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration](https://arxiv.org/abs/2602.03786) | ICML 2026 |
+| [Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation](https://arxiv.org/abs/2510.11977) | arXiv 2025 |
+| [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052) | arXiv 2026 |
+| [Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses](https://arxiv.org/abs/2604.25850) | arXiv 2026 |
+| [Retrospective Harness Optimization: Improving LLM Agents via Self-Preference over Trajectory Rollouts](https://arxiv.org/abs/2606.05922) | arXiv 2026 |
+| [Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams](https://arxiv.org/abs/2606.01770) | arXiv 2026 |
+| [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159) | arXiv 2026 |
+| [Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows](https://arxiv.org/abs/2605.27922) | arXiv 2026 |
+| [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498) | arXiv 2026 |
 
 ### 1.3 Proactive User Intent Clarification
 
@@ -148,11 +158,13 @@ Transforming user tasks into actionable requirement specifications for downstrea
 | [Generating Clarifying Questions for Information Retrieval](https://dl.acm.org/doi/10.1145/3366423.3380126) | WWW 2020 |
 | [Unified Conversational Recommendation Policy Learning via Graph-Based RL (UNICORN)](https://dl.acm.org/doi/abs/10.1145/3404835.3462913) | SIGIR 2021 |
 | [HutCRS: Hierarchical User-Interest Tracking for Conversational Recommender System](https://aclanthology.org/2023.emnlp-main.635/) | EMNLP 2023 |
+| [System Initiative Prediction for Multi-turn Conversational Information Seeking](https://dl.acm.org/doi/10.1145/3583780.3615070) | CIKM 2023 |
 | [Tell Me More! Towards Implicit User Intention Understanding of Language Model Driven Agents (Mistral-Interact)](https://aclanthology.org/2024.acl-long.61/) | ACL 2024 |
 | [SAPIENT: Mastering Multi-Turn Conversational Recommendation with Strategic Planning and MCTS](https://aclanthology.org/2025.naacl-long.133/) | NAACL 2025 |
 | [AskToAct: Enhancing LLMs Tool Use via Self-Correcting Clarification](https://aclanthology.org/2025.emnlp-main.682.pdf) | EMNLP 2025 |
+| [Bridging the Gap: From Ad-hoc to Proactive Search in Conversations](https://arxiv.org/abs/2506.00983) | SIGIR 2025 |
 | [Designing Intent Communication for Agent-Human Collaboration](https://arxiv.org/abs/2510.20409) | MUM 2025 |
-| [A Comparative Analysis of Linguistic and Retrieval Diversity in LLM-Generated Search Queries *(query formulation)*](https://dl.acm.org/doi/10.1145/3746252.3761382) | CIKM 2025 |
+| [A Comparative Analysis of Linguistic and Retrieval Diversity in LLM-Generated Search Queries](https://dl.acm.org/doi/10.1145/3746252.3761382) | CIKM 2025 |
 | [Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering](https://arxiv.org/abs/2502.13069) | ICLR 2026 |
 | [Structured Uncertainty Guided Clarification for LLM Agents (SAGE-Agent)](https://arxiv.org/abs/2511.08798) | ACL 2026 |
 | [MAC: A Multi-Agent Framework for Interactive User Clarification in Multi-Turn Conversations](https://arxiv.org/abs/2512.13154) | ACL 2026 |
@@ -343,16 +355,16 @@ Intrinsic evaluation of the search process itself, and extrinsic evaluation of d
 | [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187.pdf) | EMNLP 2023 |
 | [ToolQA: A Dataset for LLM Question Answering with External Tools](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html) | NeurIPS 2023 |
 | [ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases](https://arxiv.org/abs/2306.05301) | arXiv 2023 |
-| [Can Large Language Models Be an Alternative to Human Evaluations? *(LLM-as-a-judge)*](https://aclanthology.org/2023.acl-long.870/) | ACL 2023 |
+| [Can Large Language Models Be an Alternative to Human Evaluations?](https://aclanthology.org/2023.acl-long.870/) | ACL 2023 |
 | [LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error (STE)](https://aclanthology.org/2024.acl-long.570/) | ACL 2024 |
 | [T-Eval: Evaluating the Tool Utilization Capability of LLMs Step by Step](https://aclanthology.org/2024.acl-long.515.pdf) | ACL 2024 |
 | [MetaTool: Deciding Whether to Use Tools and Which to Use](https://openreview.net/forum?id=R0c2qtalgG) | ICLR 2024 |
 | [Gorilla: Large Language Model Connected with Massive APIs](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html) | NeurIPS 2024 |
 | [StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of LLMs](https://aclanthology.org/2024.findings-acl.664/) | ACL Findings 2024 |
-| [LLMJudge: LLMs for Relevance Judgments *(LLM-as-a-judge)*](https://ceur-ws.org/Vol-3752/paper8.pdf) | LLM4Eval Workshop (SIGIR) 2024 |
+| [LLMJudge: LLMs for Relevance Judgments](https://ceur-ws.org/Vol-3752/paper8.pdf) | LLM4Eval Workshop (SIGIR) 2024 |
 | [MCP-Zero: Active Tool Discovery for Autonomous LLM Agents](https://arxiv.org/abs/2506.01056) | arXiv 2025 |
 | [Benchmarking Tool Retrieval for Large Language Models (ToolRet)](https://aclanthology.org/2025.findings-acl.1258.pdf) | ACL Findings 2025 |
-| [Judging the Judges: A Collection of LLM-Generated Relevance Judgements *(LLM-as-a-judge)*](https://arxiv.org/abs/2502.13908) | SIGIR 2025 |
+| [Judging the Judges: A Collection of LLM-Generated Relevance Judgements](https://arxiv.org/abs/2502.13908) | SIGIR 2025 |
 | [MasRouter: Learning to Route LLMs for Multi-Agent Systems](https://arxiv.org/pdf/2502.11133) | ACL 2025 |
 | [τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://proceedings.iclr.cc/paper_files/paper/2025/file/1b126cc38b8638e07bef37e7b2bb72bf-Paper-Conference.pdf) | ICLR 2025 |
 | [τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment](https://arxiv.org/abs/2506.07982) | arXiv 2025 |
@@ -377,9 +389,9 @@ Intrinsic evaluation of the search process itself, and extrinsic evaluation of d
 | [GAIA: A Benchmark for General AI Assistants](https://arxiv.org/pdf/2311.12983) | ICLR 2024 |
 | [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://arxiv.org/abs/2406.13352) | NeurIPS 2024 |
 | [Identifying the Risks of LM Agents with an LM-Emulated Sandbox](https://arxiv.org/pdf/2309.15817) | ICLR 2024 |
-| [G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment *(LLM-as-a-judge)*](https://aclanthology.org/2023.emnlp-main.153/) | EMNLP 2023 |
+| [G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment](https://aclanthology.org/2023.emnlp-main.153/) | EMNLP 2023 |
 | [A Survey on LLM-as-a-Judge *(survey)*](https://arxiv.org/abs/2411.15594) | arXiv 2024 |
-| [LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods *(survey)*](https://arxiv.org/abs/2412.05579) | arXiv 2024 |
+| [LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods](https://arxiv.org/abs/2412.05579) | arXiv 2024 |
 | [Deep Research Comparator: A Platform for Fine-Grained Human Annotations of Deep Research Agents](https://arxiv.org/pdf/2507.05495) | arXiv 2025 |
 | [ResearcherBench: Evaluating Deep AI Research Systems on the Frontiers of Scientific Inquiry](https://arxiv.org/pdf/2507.16280) | arXiv 2025 |
 | [Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge](https://arxiv.org/pdf/2506.21506) | NeurIPS Datasets 2025 |
@@ -399,7 +411,7 @@ Intrinsic evaluation of the search process itself, and extrinsic evaluation of d
 | [DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents](https://arxiv.org/pdf/2506.11763) | ICLR 2026 |
 | [Automated Rubrics for Reliable Evaluation of Medical Dialogue Systems](https://arxiv.org/pdf/2601.15161) | arXiv 2026 |
 | [UDA: Unsupervised Debiasing Alignment for Pair-wise LLM-as-a-Judge](https://ojs.aaai.org/index.php/AAAI/article/view/40788) | AAAI 2026 |
-| [A Survey on Agent-as-a-Judge *(survey)*](https://arxiv.org/abs/2601.05111) | arXiv 2026 |
+| [A Survey on Agent-as-a-Judge](https://arxiv.org/abs/2601.05111) | arXiv 2026 |
 | [FairJudge: An Adaptive, Debiased, and Consistent LLM-as-a-Judge](https://arxiv.org/abs/2602.06625) | arXiv 2026 |
 
 ---
@@ -515,7 +527,7 @@ System-level concerns that shape whether agent search is trustworthy, fair, secu
 | [Personalisation of Web Search](https://link.springer.com/chapter/10.1007/11577935_11) | IJCAI Workshop 2003 |
 | [Personalisation in Web Computing and Informatics: Theories, Techniques, Applications, and Future Research](https://link.springer.com/article/10.1007/s10796-009-9199-3) | Information Systems Frontiers 2010 |
 | [RouteLLM: Learning to Route LLMs from Preference Data](https://proceedings.iclr.cc/paper_files/paper/2025/hash/5503a7c69d48a2f86fc00b3dc09de686-Abstract-Conference.html) | ICLR 2025 |
-| [A Survey of Personalization: From RAG to Agent *(survey)*](https://arxiv.org/pdf/2504.10147) | arXiv 2025 |
+| [A Survey of Personalization: From RAG to Agent](https://arxiv.org/pdf/2504.10147) | arXiv 2025 |
 | [FSPO: Few-Shot Optimization of Synthetic Preferences Personalizes to Real Users](https://arxiv.org/abs/2502.19312) | arXiv 2025 |
 | [PersonaAgent: When Large Language Model Agents Meet Personalization at Test Time](https://arxiv.org/pdf/2506.06254) | NeurIPS Workshop (MTI-LLM) 2025 |
 | [MAPS: Motivation-Aware Personalized Search via LLM-Driven Consultation Alignment](https://arxiv.org/pdf/2503.01711) | ACL 2025 |
@@ -524,7 +536,7 @@ System-level concerns that shape whether agent search is trustworthy, fair, secu
 | [UXAgent: An LLM-Agent-Based Usability Testing Framework for Web Design](https://arxiv.org/pdf/2502.12561) | CHI Extended Abstracts 2025 |
 | [Shop-R1: Rewarding LLMs to Simulate Human Behavior in Online Shopping via Reinforcement Learning](https://openreview.net/forum?id=fkIePp9YEO) | ICLR 2025 |
 | [Customer-R1: Personalized Simulation of Human Behaviors via RL-Based LLM Agent in Online Shopping](https://arxiv.org/pdf/2510.07230) | arXiv 2025 |
-| [Deep Research: A Survey of Autonomous Research Agents *(survey)*](https://arxiv.org/pdf/2508.12752) | arXiv 2025 |
+| [Deep Research: A Survey of Autonomous Research Agents](https://arxiv.org/pdf/2508.12752) | arXiv 2025 |
 | [PersRM-R1: Enhance Personalized Reward Modeling with Reinforcement Learning](https://arxiv.org/abs/2508.14076) | arXiv 2025 |
 | [ProductAgent: Benchmarking Conversational Product Search Agent with Asking Clarification Questions](https://aclanthology.org/2025.emnlp-industry.25.pdf) | EMNLP Industry 2025 |
 | [Towards Personalized Deep Research: Benchmarks and Evaluations (PDR-Bench)](https://arxiv.org/pdf/2509.25106) | ICLR 2026 |
@@ -550,7 +562,7 @@ System-level concerns that shape whether agent search is trustworthy, fair, secu
 
 ## 6. Applications
 
-### 6.1 Medical
+### 6.1 Healthcare
 
 | Paper | Venue |
 |---|---|
@@ -603,7 +615,7 @@ System-level concerns that shape whether agent search is trustworthy, fair, secu
 
 | Paper | Venue |
 |---|---|
-| [Deep Research: A Systematic Survey *(survey)*](https://arxiv.org/pdf/2512.02038) | arXiv 2025 |
+| [Deep Research: A Systematic Survey](https://arxiv.org/pdf/2512.02038) | arXiv 2025 |
 | [WebDancer: Towards Autonomous Information Seeking Agency](https://arxiv.org/abs/2505.22648) | NeurIPS 2025 |
 | [WebThinker: Empowering Large Reasoning Models with Deep Research Capability](https://arxiv.org/abs/2504.21776) | NeurIPS 2025 |
 | [Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning](https://arxiv.org/abs/2503.09516) | COLM 2025 |
