@@ -5,7 +5,7 @@
 ### A curated reading list accompanying *Agent and Tool Search: Foundations, Techniques, and Open Challenges*
 
 [![Awesome](https://awesome.re/badge.svg?logo=stylelint)](https://awesome.re)
-![arXiv](https://img.shields.io/badge/Arxiv-Agent_Search-b31b1b.svg?logo=arXiv)
+[![arXiv](https://img.shields.io/badge/Arxiv-Agent_Search-b31b1b.svg?logo=arXiv)](https://openreview.net/pdf?id=lk32qfuE5U)
 [![Contribution Welcome](https://img.shields.io/badge/Contributions-welcome-Green?logo=mercadopago&logoColor=white)](https://github.com/Bingo-W/Awesome-Agent-Search/pulls)
 [![GitHub star chart](https://img.shields.io/github/stars/Bingo-W/Awesome-Agent-Search?style=social)](https://star-history.com/#Bingo-W/Awesome-Agent-Search)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?)](LICENSE)
@@ -19,7 +19,7 @@
 
 ## 📚 Citation
 
-If you find this survey useful in your research and applications, please cite and ⭐ star / watch the repo for updates:
+If you find this survey useful in your research and applications, please cite and ⭐ star to watch the repo for updates:
 
 ```bibtex
 @article{wu2026agentsearch,
