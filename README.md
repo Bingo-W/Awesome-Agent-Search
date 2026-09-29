@@ -241,6 +241,7 @@ How agents and tools are discovered as retrieval units, represented for matching
 | [Tools Are Under-Documented: Simple Document Expansion Boosts Tool Retrieval](https://arxiv.org/abs/2510.22670) | ICLR 2026 |
 | [ToolDreamer: Instilling LLM Reasoning into Tool Retrievers](https://arxiv.org/abs/2510.19791) | ACL 2026 |
 | [Beyond Single-Shot: Multi-Step Tool Retrieval via Query Planning](https://arxiv.org/abs/2601.07782) | ACL 2026 |
+| [ToolScope: Enhancing LLM Agent Tool Use through Tool Merging and Context-Aware Filtering](https://arxiv.org/abs/2510.20036) | ACL 2026 |
 | [Multi-Field Tool Retrieval](https://arxiv.org/pdf/2602.05366) | arXiv 2026 |
 
 ### 2.4 Agent Representations
@@ -301,6 +302,8 @@ How candidates are ranked and selected once represented and indexed — similari
 | [Online-Optimized RAG for Tool Use and Function Calling](https://arxiv.org/pdf/2509.20415) | arXiv 2025 |
 | [Position: Toward a Theory of Agents as Tool-Use Decision-Makers](https://arxiv.org/abs/2506.00886) | arXiv 2025 |
 | [Multi-Field Tool Retrieval (MFTR)](https://arxiv.org/pdf/2602.05366) | arXiv 2026 |
+| [MagicSelector: Joint Optimization for Agent Tool Selection via Counterfactual Decomposition and Progressive Reranking](https://arxiv.org/abs/2607.17751) | arXiv 2026 |
+| [How Many Tools Should an LLM Agent See? A Chance-Corrected Answer](https://arxiv.org/abs/2605.24660) | arXiv 2026 |
 
 ### 3.2 Iterative Tool Retrieval
 
@@ -321,6 +324,7 @@ How candidates are ranked and selected once represented and indexed — similari
 | [Online-Optimized RAG for Tool Use and Function Calling](https://arxiv.org/pdf/2509.20415) | arXiv 2025 |
 | [DeepAgent: A General Reasoning Agent with Scalable Toolsets](https://arxiv.org/abs/2510.21618) | WWW 2026 |
 | [AgentIR: Reasoning-Aware Retrieval for Deep Research Agents](https://arxiv.org/abs/2603.04384) | arXiv 2026 |
+| [FitText: Evolving Agent Tool Ecologies via Memetic Retrieval](https://arxiv.org/abs/2605.02411) | COLM 2026 |
 
 ### 3.3 Agent and Tool Recommendation
 
@@ -364,6 +368,7 @@ Intrinsic evaluation of the search process itself, and extrinsic evaluation of d
 | [LLMJudge: LLMs for Relevance Judgments](https://ceur-ws.org/Vol-3752/paper8.pdf) | LLM4Eval Workshop (SIGIR) 2024 |
 | [MCP-Zero: Active Tool Discovery for Autonomous LLM Agents](https://arxiv.org/abs/2506.01056) | arXiv 2025 |
 | [Benchmarking Tool Retrieval for Large Language Models (ToolRet)](https://aclanthology.org/2025.findings-acl.1258.pdf) | ACL Findings 2025 |
+| [ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use](https://arxiv.org/abs/2501.02506) | ACL 2025 |
 | [Judging the Judges: A Collection of LLM-Generated Relevance Judgements](https://arxiv.org/abs/2502.13908) | SIGIR 2025 |
 | [MasRouter: Learning to Route LLMs for Multi-Agent Systems](https://arxiv.org/pdf/2502.11133) | ACL 2025 |
 | [τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://proceedings.iclr.cc/paper_files/paper/2025/file/1b126cc38b8638e07bef37e7b2bb72bf-Paper-Conference.pdf) | ICLR 2025 |
